@@ -6,11 +6,13 @@ build-backend = "hatchling.build"
 name = "treegenerator"
 authors = [{name="Matt Manes"}]
 description = "Generate a recursive tree diagram given a starting directory or a list of URIs."
-version = "1.0.0"
+version = "1.0.1"
 requires-python = ">=3.10"
 dependencies = [
 
-	"printbuddies"
+	"printbuddies",
+
+	"pytest"
 ]
 readme = "README.md"
 keywords = [
