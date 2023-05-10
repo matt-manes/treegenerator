@@ -10,7 +10,7 @@ version = "1.0.0"
 requires-python = ">=3.10"
 dependencies = [
 
-	"printbuddies~=1.0.0"
+	"printbuddies"
 ]
 readme = "README.md"
 keywords = [
